@@ -29,7 +29,7 @@ while attempts < 3:
 
     headers = {'X-Request-Checksum': checksum_calc}
 
-    #Request de ids
+    #Request the ids
     request_users_ids = requests.request("GET", url_users, headers=headers).text.encode('utf-8').decode('utf8')
     
     # format output to get a python list 
