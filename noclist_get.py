@@ -3,8 +3,8 @@ import hashlib
 import sys
 import json
 
-url_auth = "http://192.168.0.51:8888/auth"
-url_users = "http://192.168.0.51:8888/users"
+url_auth = "http://API-ENDPOINT-IP:8888/auth"
+url_users = "http://API-ENDPOINT-IP:8888/users"
 
 #Handling errors
 attempts = 0
