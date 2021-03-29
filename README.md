@@ -1,2 +1,17 @@
-# noclist
-api call to retrieve BadSec Users id
+## Noc List
+
+API call to retrieve users id
+
+how to execute
+```
+// Edit the scripts and change API-ENDPOINT-IP for the real API ip
+
+   url_auth = "http://API-ENDPOINT-IP:8888/auth" 
+   url_users = "http://API-ENDPOINT-IP:8888/users"
+```
+
+run the script
+
+```
+python noclist_get.py
+```
