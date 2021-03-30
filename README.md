@@ -4,7 +4,7 @@ API call to retrieve users id
 
 how to execute
 ```
-// Edit the scripts and change API-ENDPOINT-IP for the real API ip
+// Edit the script and change API-ENDPOINT-IP for the real API ip
 
    url_auth = "http://API-ENDPOINT-IP:8888/auth" 
    url_users = "http://API-ENDPOINT-IP:8888/users"
